@@ -1,0 +1,89 @@
+#Inventor V2.1 ascii
+
+
+DEF _right_wrist Separator {
+
+  Material {
+    ambientColor 0.2 0.2 0.2
+    diffuseColor 1 0 0
+    transparency 0
+
+  }
+  Separator {
+
+    MatrixTransform {
+      matrix 1 0 0 0
+        0 2.220446e-016 1 0
+        0 -1 2.220446e-016 0
+        0 0 0.028899999 1
+
+    }
+    Cylinder {
+      radius 0.02825
+      height 0.057799999
+
+    }
+  }
+  Material {
+    ambientColor 0.2 0.2 0.2
+    diffuseColor 0.63999999 0.63999999 0.63999999
+    transparency 0
+
+  }
+  Separator {
+
+    MatrixTransform {
+      matrix 1 0 0 0
+        0 0 1 0
+        0 1 0 0
+        7.5 0.133 84.549997 1
+
+    }
+    Cylinder {
+      radius 50
+      height 58
+    }
+  }
+  Material {
+    ambientColor 0.2 0.2 0.2
+    diffuseColor 0.63999999 0.63999999 0.63999999
+    transparency 0
+
+  }
+  Separator {
+
+    MatrixTransform {
+      matrix 1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        36.118301 0.95801002 125.0117 1
+
+    }
+    Cube {
+      width 23
+      height 60
+      depth 28
+
+    }
+  }
+  Material {
+    ambientColor 0.2 0.2 0.2
+    diffuseColor 1 0 0
+    transparency 0
+
+  }
+  Separator {
+
+    MatrixTransform {
+      matrix 1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0.118301 0.0 138.0117 1
+
+    }
+    Cylinder {
+      radius 27
+      height 103 
+    }
+  }
+}
